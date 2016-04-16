@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Please enter the coordinates to view Earthquake"
+/>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:text="North"
+/>
+<EditText
+    android:id="@+id/txtNorth"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="-20dp"
+    android:layout_marginBottom="10dp"
+    android:ems="10"
+    android:inputType="none"
+/>
+ <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:text="East"
+ />
+<EditText
+    android:id="@+id/txtEast"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="-30dp"
+    android:layout_marginBottom="10dp"
+    android:ems="10"
+    android:inputType="none"
+/>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:text="West"/>
+<EditText
+    android:id="@+id/txtWest"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="-30dp"
+    android:layout_marginBottom="10dp"
+    android:ems="10"
+    android:inputType="none"
+/>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:text="South"/>
+<EditText
+    android:id="@+id/txtSouth"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="-30dp"
+   
+    android:ems="10"
+    android:inputType="none"
+/>
+
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:layout_marginLeft="10dp"
+    android:text="View"
+    android:onClick="btnView"
+/>
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginTop="-50dp"
+    android:layout_marginRight="10dp"
+    android:text="Reset"
+    android:onClick="btnReset"
+/>
+
+
+<TextView
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Location"/>
+<EditText
+    android:id="@+id/txtLocation"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text"
+    android:textAlignment="center"
+/>
+
+<TextView
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Magnitude"/>
+<EditText
+    android:id="@+id/txtMagnitude"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text"
+    android:textAlignment="center"
+/>
+
+<TextView
+    android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="DateTime"/>
+<EditText
+    android:id="@+id/txtDatetime"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="datetime"
+    android:textAlignment="center"
+/>
+
+
+</LinearLayout>
+
